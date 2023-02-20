@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.honor.springboot.config.DataSourceConfig",
+      "sourceMethod": "druidDataSource()"
+    },
+    {
+      "name": "user",
+      "type": "com.honor.springboot.entity.User",
+      "sourceType": "com.honor.springboot.entity.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.honor.springboot.entity.User"
+    },
+    {
+      "name": "user.company",
+      "type": "java.lang.String",
+      "sourceType": "com.honor.springboot.entity.User"
+    },
+    {
+      "name": "user.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.honor.springboot.entity.User"
+    },
+    {
+      "name": "user.password",
+      "type": "java.lang.String",
+      "sourceType": "com.honor.springboot.entity.User"
+    },
+    {
+      "name": "user.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.honor.springboot.entity.User"
+    },
+    {
+      "name": "user.user-role",
+      "type": "java.util.List<com.honor.springboot.entity.User$UserRole>",
+      "sourceType": "com.honor.springboot.entity.User"
+    }
+  ],
+  "hints": []
+}

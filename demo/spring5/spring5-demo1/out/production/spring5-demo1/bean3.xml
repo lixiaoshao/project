@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/util  http://www.springframework.org/schema/util/spring-util.xsd">
+    <util:list id="userList">
+        <ref bean="user"/>
+        <ref bean="user"/>
+    </util:list>
+    <bean id="pdk" class="com.spring5.demo.bean.Pdk"/>
+    <bean id="user" class="com.spring5.demo.service.UserService" p:name="哇塞"/>
+    <bean id="stu" class="com.spring5.demo.service.StudentService">
+        <property name="userList" ref="userList"/>
+        <property name="courses">
+            <array>
+                <value>Java</value>
+                <value>C</value>
+                <value>C++</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>123</value>
+                <value>456</value>
+            </list>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="java" value="java"></entry>
+                <entry key="php" value="php"></entry>
+            </map>
+        </property>
+        <property name="set">
+            <set>
+                <value>
+                    成功秘笈
+                </value>
+            </set>
+        </property>
+    </bean>
+
+</beans>

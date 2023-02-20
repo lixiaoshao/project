@@ -1,0 +1,53 @@
+
+spring:
+  datasource:
+    # 如果不配置链接池，这是默认的数据源
+    #type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3308/test
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: admin
+      aop-patterns: com.honor.springboot.*
+      filter:
+        wall:
+          enabled: true
+        stat:
+          enabled: true
+          db-type: h2
+          log-slow-sql: true
+          slow-sql-millis: 300
+  redis:
+    client-type: lettuce
+    host: 127.0.0.1
+    port: 6379
+    password: redis123
+    jedis:
+      pool:
+        enabled: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090
+  profiles:
+    active: test
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapper/*
+  type-aliases-package: com.honor.springboot.entity
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+

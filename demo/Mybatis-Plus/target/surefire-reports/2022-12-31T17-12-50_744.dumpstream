@@ -1,0 +1,15 @@
+# Created at 2022-12-31T17:12:55.916
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2022-12-31T17:12:55.917
+WARNING: Illegal reflective access by com.baomidou.mybatisplus.core.toolkit.SetAccessibleAction (file:/E:/tool/maven_jar/com/baomidou/mybatis-plus-core/3.5.3/mybatis-plus-core-3.5.3.jar) to field java.lang.invoke.SerializedLambda.capturingClass
+
+# Created at 2022-12-31T17:12:55.918
+WARNING: Please consider reporting this to the maintainers of com.baomidou.mybatisplus.core.toolkit.SetAccessibleAction
+
+# Created at 2022-12-31T17:12:55.918
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2022-12-31T17:12:55.919
+WARNING: All illegal access operations will be denied in a future release
+

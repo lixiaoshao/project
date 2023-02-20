@@ -1,0 +1,92 @@
+2022-12-29 12:52:41,150 DEBUG [main] ? (?:?) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-12-29 12:52:41,182 DEBUG [main] ? (?:?) - PooledDataSource forcefully closed/removed all connections.
+2022-12-29 12:52:41,182 DEBUG [main] ? (?:?) - PooledDataSource forcefully closed/removed all connections.
+2022-12-29 12:52:41,182 DEBUG [main] ? (?:?) - PooledDataSource forcefully closed/removed all connections.
+2022-12-29 12:52:41,182 DEBUG [main] ? (?:?) - PooledDataSource forcefully closed/removed all connections.
+2022-12-29 12:52:41,276 DEBUG [main] ? (?:?) - Opening JDBC Connection
+2022-12-29 12:52:41,529 DEBUG [main] ? (?:?) - Created connection 2121199924.
+2022-12-29 12:52:41,533 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 12:52:41,583 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 12:52:41,590 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 12:52:41,595 DEBUG [main] ? (?:?) - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e6ef134]
+2022-12-29 12:52:41,595 DEBUG [main] ? (?:?) - Returned connection 2121199924 to pool.
+2022-12-29 12:56:07,412 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 12:56:07,458 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 12:56:07,469 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 14:54:06,523 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 14:54:06,582 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 14:54:06,585 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 15:09:37,268 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 15:09:37,317 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:09:37,322 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 15:09:37,329 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = 3;
+2022-12-29 15:09:37,330 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:09:37,376 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 15:10:31,449 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 15:10:31,496 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:10:31,499 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 15:10:31,503 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = 3;
+2022-12-29 15:10:31,504 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:10:31,545 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 15:18:35,226 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 15:18:35,270 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:18:35,272 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 15:18:35,279 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = 3;
+2022-12-29 15:18:35,280 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:18:35,326 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 15:52:17,045 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values ("超哥", "123456", 20);
+2022-12-29 15:52:17,098 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:52:17,101 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 15:52:17,108 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = 3;
+2022-12-29 15:52:17,109 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:52:17,155 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 15:56:46,270 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user;
+2022-12-29 15:56:46,322 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 15:56:46,372 DEBUG [main] ? (?:?) - <==      Total: 11
+2022-12-29 16:12:05,186 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = 10;
+2022-12-29 16:12:05,233 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 16:12:05,283 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 16:31:35,040 DEBUG [main] ? (?:?) - ==>  Preparing: select * from where id = ? and name ?
+2022-12-29 16:31:35,096 DEBUG [main] ? (?:?) - ==> Parameters: 10(Integer), 超哥(String)
+2022-12-29 16:32:13,338 DEBUG [main] ? (?:?) - ==>  Preparing: select * from where id = ? and name = ?
+2022-12-29 16:32:13,386 DEBUG [main] ? (?:?) - ==> Parameters: 10(Integer), 超哥(String)
+2022-12-29 16:33:12,727 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = ? and name = ?
+2022-12-29 16:33:12,777 DEBUG [main] ? (?:?) - ==> Parameters: 10(Integer), 超哥(String)
+2022-12-29 16:33:12,824 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 16:33:25,647 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = ? and name = ?
+2022-12-29 16:33:25,698 DEBUG [main] ? (?:?) - ==> Parameters: 10(Integer), 超哥(String)
+2022-12-29 16:33:25,747 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 17:27:56,376 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where id = ? and name = ?
+2022-12-29 17:27:56,426 DEBUG [main] ? (?:?) - ==> Parameters: 10(Integer), 超哥(String)
+2022-12-29 17:27:56,469 DEBUG [main] ? (?:?) - <==      Total: 1
+2022-12-29 17:32:56,293 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values (?, ?, ?);
+2022-12-29 17:32:56,337 DEBUG [main] ? (?:?) - ==> Parameters: 厉害哥(String), 123456(String), 30(Integer)
+2022-12-29 17:32:56,341 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 19:12:10,362 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user;
+2022-12-29 19:12:10,437 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 19:12:10,499 DEBUG [main] ? (?:?) - <==      Total: 12
+2022-12-29 19:24:11,911 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where name like '%超%'
+2022-12-29 19:24:11,958 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 19:24:12,023 DEBUG [main] ? (?:?) - <==      Total: 11
+2022-12-29 19:28:42,418 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where name like "%"?"%"
+2022-12-29 19:28:42,470 DEBUG [main] ? (?:?) - ==> Parameters: 超(String)
+2022-12-29 19:28:42,527 DEBUG [main] ? (?:?) - <==      Total: 11
+2022-12-29 19:29:56,297 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where name concat("%", ?, "%")
+2022-12-29 19:29:56,348 DEBUG [main] ? (?:?) - ==> Parameters: 超(String)
+2022-12-29 19:30:20,765 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user where name like concat("%", ?, "%")
+2022-12-29 19:30:20,833 DEBUG [main] ? (?:?) - ==> Parameters: 超(String)
+2022-12-29 19:30:20,892 DEBUG [main] ? (?:?) - <==      Total: 11
+2022-12-29 19:37:15,140 DEBUG [main] ? (?:?) - ==>  Preparing: delete from mybatis_user where id in (14,15,16)
+2022-12-29 19:37:15,203 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 19:37:15,208 DEBUG [main] ? (?:?) - <==    Updates: 1
+2022-12-29 19:41:24,133 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user
+2022-12-29 19:41:24,195 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 19:42:12,588 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user
+2022-12-29 19:42:12,651 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 19:42:12,707 DEBUG [main] ? (?:?) - <==      Total: 11
+2022-12-29 19:42:35,745 DEBUG [main] ? (?:?) - ==>  Preparing: select * from mybatis_user
+2022-12-29 19:42:35,794 DEBUG [main] ? (?:?) - ==> Parameters: 
+2022-12-29 19:42:35,857 DEBUG [main] ? (?:?) - <==      Total: 11
+2022-12-29 19:56:22,217 DEBUG [main] ? (?:?) - ==>  Preparing: insert into mybatis_user (name, password, age) values (?, ?, ?);
+2022-12-29 19:56:22,267 DEBUG [main] ? (?:?) - ==> Parameters: 厉害哥la(String), 123456(String), 30(Integer)
+2022-12-29 19:56:22,282 DEBUG [main] ? (?:?) - <==    Updates: 1

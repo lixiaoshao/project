@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-order-service
+
+#将客户端注册到 eureka 服务列表内
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://cloud.eureka.server7001.com:7001/eureka,http://cloud.eureka.server7003.com:7003/eureka
+  instance:
+    instance-id: cloud-order-feign-service-80
+    prefer-ip-address: true
+logging:
+  level:
+    com.honor.fly.service: debug

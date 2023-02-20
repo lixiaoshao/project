@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.honor.mybatisplus.mapper.EmpMapper">
+
+    <resultMap id="BaseResultMap" type="com.honor.mybatisplus.entity.Emp">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="empName" column="emp_name" jdbcType="VARCHAR"/>
+            <result property="age" column="age" jdbcType="INTEGER"/>
+            <result property="sex" column="sex" jdbcType="CHAR"/>
+            <result property="deptId" column="dept_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,emp_name,age,
+        sex,dept_id
+    </sql>
+    <insert id="insertAllData">
+insert into mybatis_emp
+(id,emp_name,age,
+sex,dept_id)
+values
+(
+#{id,jdbcType=NUMERIC},#{empName,jdbcType=VARCHAR},#{age,jdbcType=NUMERIC},
+#{sex,jdbcType=VARCHAR},#{deptId,jdbcType=NUMERIC}
+)
+
+</insert>
+    <select id="selectAllByDeptIdAndAgeContaining" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from mybatis_emp
+        where
+        dept_id = #{deptId,jdbcType=NUMERIC}
+        AND age like CONCAT('%', #{age,jdbcType=NUMERIC},'%')
+    </select>
+    <update id="updateAgeById">
+update mybatis_emp
+ set age = #{age,jdbcType=NUMERIC}
+where
+id = #{id,jdbcType=NUMERIC}
+</update>
+    <delete id="deleteByIdAndDeptIdAndDeptIdAndDeptId">
+delete from mybatis_emp
+where
+id = #{id,jdbcType=NUMERIC}
+ AND dept_id = #{deptId,jdbcType=NUMERIC}
+ AND dept_id = #{oldDeptId,jdbcType=NUMERIC}
+ AND dept_id = #{oldDeptId,jdbcType=NUMERIC}
+</delete>
+    <delete id="deleteByIdAndDeptId">
+delete from mybatis_emp
+where
+id = #{id,jdbcType=NUMERIC}
+ AND dept_id = #{deptId,jdbcType=NUMERIC}
+</delete>
+</mapper>

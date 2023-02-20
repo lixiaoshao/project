@@ -1,0 +1,33 @@
+server:
+  port: 8002
+
+#将客户端注册到 eureka 服务列表内
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://cloud.eureka.server7001.com:7001/eureka,http://cloud.eureka.server7003.com:7003/eureka
+  instance:
+    instance-id: cloud-provider-payent-8002
+    prefer-ip-address: true
+spring:
+  application:
+    name: cloud-payment-service
+
+  datasource:
+    # 如果不配置链接池，这是默认的数据源
+    #type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3308/spring-cloud?useUnicode=true&characterEncoding=utf-8&userSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  # SQL映射文件路径
+  mapper-locations: classpath:/mybatis/mapper/*
+  # SQL映射文件中返回值类型包路径
+  type-aliases-package: com.honor.fly.entity
+  # 数据表字段 映射 到 实体类支持驼峰
+  configuration:
+    map-underscore-to-camel-case: true

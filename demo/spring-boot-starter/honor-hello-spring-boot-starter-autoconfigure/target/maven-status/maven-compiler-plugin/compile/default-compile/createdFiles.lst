@@ -1,0 +1,3 @@
+com\honor\fly\service\HelloService.class
+com\honor\fly\auto\HelloServiceAutoConfigure.class
+com\honor\fly\entity\Hello.class

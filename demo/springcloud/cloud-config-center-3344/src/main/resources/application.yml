@@ -1,0 +1,111 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          # git地址
+          uri: git@github.com:lixiaoshao/spring-cloud.git
+          # 搜索路径
+          search-paths:
+            - springcloud
+          ignoreLocalSshSettings: true
+          #hostKey: AAAAB3NzaC1yc2EAAAADAQABAAACAQDrev370KMlrdIfbPa19/deIdvVgdVh+omynhi3H2y+qFCmtH/qLwqm8U7bHszTEi8qHQr/xXFlrBNXIGXvNtst5AwLh+PT0mI1MXvrzAjU4wA3tR8kVY+eEd6cwsRpGB0aIEQhWdpZ9wePtqbVLaARVrn2wImZmgxz01H1JaNQwo/HKzifIbqE6dz/payuVjPVaHFXiT+pC0hcPevbnKI+2Mj/JkR6a7Sdr5Ykzwag/dgcAEXYp/669F19kvS33ort/KWJtIzM0DAAGfZdey+9yrNRM9NMOBr1hs/I8b6Wuqcj/aTCmcSkN2flfOFA8CW6kQXeEhlAeg0FueGvLjeUxX/wKBzZUjQ1tA05/a6jtgNTr00rZlaqWKFWFPqUJaV8Arl78BlFdC5e282vBVqdCB6DBf1uNP0mL5DtyaOLqyywXIfQUnqTvpTzS6S4hyxt2V8TMZCA+rGYYqdo079SCGRRMTkQ56ROvlJ0lPq7tW9xgFwRXdKTzqwnx2IvfptNfbufoLU2Gq+58dleP+9FxwcyH3yLAs55+/oysDH05uxjNK3skq4wT1Hf5JzGpE4Zsvm9C14Sk08BCt+CwV2v6a7/qMk/sQxSSlBUJ1fC3BaeUG6OZ+utbYMdN6CdFTun2WoDGWec8jVyilmXHZu4Rq4B2O08fp814t0G3kIDYw== 2440085444@qq.com
+          #hostKeyAlgorithm: ssh-rsa
+          # 如果本地设置了ssh 密码 就必须配置，否则会报私钥无效
+          passphrase: 123456
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            Proc-Type: 4,ENCRYPTED
+            DEK-Info: AES-128-CBC,0BCDB401AF5920CAC03A6C01ED8DF6F5
+
+            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
+            -----END RSA PRIVATE KEY-----
+
+          #strict-host-key-checking: false
+        # 配置这个健康检查不会报错
+        health:
+          repositories:
+            app:
+                label: master
+
+      # 分支
+      label: master
+
+  #rabbitMQ支持
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+
+# 服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://cloud.eureka.server7001.com:7001/eureka,http://cloud.eureka.server7003.com:7003/eureka
+
+
+
+# 暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    busrefresh:
+      enabled: true

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.demo.mapper.UserMapper">
+
+<!--
+<select id="insertUser" resultType="Blog">
+select * from Blog where id = #{id}
+    </select>
+
+-->
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into mybatis_user (name, password, age) values (#{name}, #{password}, #{age});
+    </insert>
+    <!--User getUserById(Integer id)-->
+    <select id="getUserById" resultType="user">
+        select * from mybatis_user where id = ${id};
+    </select>
+    <!--com.mybatis.demo.mapper.UserMapper.getAllUser-->
+    <select id="getAllUser" resultType="user">
+        select * from mybatis_user;
+    </select>
+    <!--
+        User getUserByIdAndName(Integer id, String name);
+    -->
+    <select id="getUserByIdAndName" resultType="user">
+        select * from mybatis_user where id = #{arg0} and name = #{param2}
+    </select>
+    <!--User getUserWithMap(Map<String, Object> maps)-->
+    <select id="getUserWithMap" resultType="user">
+        select * from mybatis_user where id = #{id} and name = #{name}
+    </select>
+    <!--User getUserInfo(@Param("id") Integer id, @Param("username") String name);-->
+    <select id="getUserInfo" resultType="user">
+        select * from mybatis_user where id = #{id} and name = #{username}
+    </select>
+    <!--Map<String, Object> getAllUserToMap();-->
+    <select id="getAllUserToMap" resultType="map">
+        select * from mybatis_user;
+    </select>
+    <!--List<User> matchUserList(@Param("str") String str);-->
+    <select id="matchUserList" resultType="user">
+        <!--第一种-->
+        select * from mybatis_user where name like '%${str}%'
+        <!--第二种  推荐这种-->
+        select * from mybatis_user where name like "%"#{str}"%"
+        <!--第三种-->
+        select * from mybatis_user where name like concat("%", #{str}, "%")
+    </select>
+    <!--void delMore(@Param("str") String str);-->
+    <delete id="delMore">
+        delete from mybatis_user where id in (${str})
+    </delete>
+    <!--List<User> getUserList(@Param("table") String table);-->
+    <select id="getUserList" resultType="user">
+        select * from ${table}
+    </select>
+</mapper>

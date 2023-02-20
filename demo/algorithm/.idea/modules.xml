@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm.iml" filepath="$PROJECT_DIR$/.idea/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animal/animal.iml" filepath="$PROJECT_DIR$/animal/animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binarytree/binarytree.iml" filepath="$PROJECT_DIR$/binarytree/binarytree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/honor-boot-test/honor-boot-test.iml" filepath="$PROJECT_DIR$/honor-boot-test/honor-boot-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linearlist/linearlist.iml" filepath="$PROJECT_DIR$/linearlist/linearlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stack/stack.iml" filepath="$PROJECT_DIR$/stack/stack.iml" />
+    </modules>
+  </component>
+</project>

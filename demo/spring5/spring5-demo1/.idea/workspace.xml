@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1da8f5c-9628-4bf3-b5de-415c99c05e0a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Aspect" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="ProjectId" id="2JRkks9IGDuEHvtjzGGGFj9q09g" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\project\demo\spring5\spring5-demo1\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring5.demo.test" />
+      <recent name="com.spring5.demo.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\project\demo\spring5\spring5-demo1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestJunit5">
+    <configuration name="TestJunit4.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring5.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring5.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring5.demo.test.TestJunit4" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJunit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring5.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring5.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring5.demo.test.TestJunit5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringNew.registerBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring5.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring5.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring5.demo.test.TestSpringNew" />
+      <option name="METHOD_NAME" value="registerBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTx.annoTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring5.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring5.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring5.demo.test.TestTx" />
+      <option name="METHOD_NAME" value="annoTx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTx.xmlTx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5-demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring5.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring5.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.spring5.demo.test.TestTx" />
+      <option name="METHOD_NAME" value="xmlTx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestTx.xmlTx" />
+      <item itemvalue="JUnit.TestTx.annoTx" />
+      <item itemvalue="JUnit.TestSpringNew.registerBean" />
+      <item itemvalue="JUnit.TestJunit4.testUser" />
+      <item itemvalue="JUnit.TestJunit5" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestJunit5" />
+        <item itemvalue="JUnit.TestJunit4.testUser" />
+        <item itemvalue="JUnit.TestSpringNew.registerBean" />
+        <item itemvalue="JUnit.TestTx.annoTx" />
+        <item itemvalue="JUnit.TestTx.xmlTx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1da8f5c-9628-4bf3-b5de-415c99c05e0a" name="Default Changelist" comment="" />
+      <created>1672048428459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672048428459</updated>
+      <workItem from="1672048429801" duration="52521000" />
+      <workItem from="1672276565793" duration="38000" />
+      <workItem from="1672286283367" duration="646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

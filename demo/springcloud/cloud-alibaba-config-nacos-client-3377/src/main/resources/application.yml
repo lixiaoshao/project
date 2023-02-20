@@ -1,0 +1,19 @@
+server:
+  port: 3377
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        namespace: e8ac6da9-481b-42ea-be5b-c2a51076ab7f
+        group: test
+  profiles:
+    active: dev
+  config:
+    import:
+      - optional:nacos:nacos-config-test.yaml

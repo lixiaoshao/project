@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.demo.mapper.EmpMapper">
+    <!--List<Emp> getUserList();-->
+    <select id="getUserListOld" resultType="emp">
+        <!--select id, emp_name as empName, age, sex, dept_id as deptId from mybatis_emp;-->
+        select * from mybatis_emp;
+    </select>
+    <!--List<Emp> getUserList(@Param("deptId") Integer deptId);-->
+    <resultMap id="empMapping" type="emp">
+        <id property="id" column="id"/>
+        <result property="empName" column="emp_name"/>
+        <result property="age" column="age"/>
+        <result property="sex" column="sex"/>
+        <result property="deptId" column="dept_id"/>
+    </resultMap>
+    <select id="getUserList" resultMap="empMapping">
+        select * from mybatis_emp where dept_id = #{deptId}
+    </select>
+    <!--Emp getRelUserInfo(@Param("id") Integer id);-->
+    <!--<resultMap id="empAndDeptMapping" type="emp">
+        <result property="empName" column="emp_name"/>
+        <result property="deptId" column="dept_id"/>
+        <result property="dept.deptId" column="dept_id"/>
+        <result property="dept.deptName" column="dept_name"/>
+    </resultMap>
+    <select id="getRelUserInfo" resultMap="empAndDeptMapping">
+        select mybatis_emp.*, mybatis_dept.dept_name from mybatis_emp left join mybatis_dept on mybatis_emp.dept_id = mybatis_dept.id
+        where mybatis_emp.id = #{id}
+    </select>-->
+
+    <resultMap id="empAndDeptMapping" type="emp">
+        <result property="empName" column="emp_name"/>
+        <result property="deptId" column="dept_id"/>
+        <association property="dept" javaType="Dept">
+            <result property="deptId" column="dept_id"/>
+            <result property="deptName" column="dept_name"/>
+        </association>
+    </resultMap>
+    <select id="getRelUserInfo" resultMap="empAndDeptMapping">
+        select mybatis_emp.*, mybatis_dept.dept_name from mybatis_emp left join mybatis_dept on mybatis_emp.dept_id = mybatis_dept.id
+        where mybatis_emp.id = #{id}
+    </select>
+    <!--Emp getUserInfo(@Param("id") Integer id);-->
+    <resultMap id="empAndDeptStep" type="emp">
+        <result property="empName" column="emp_name"/>
+        <result property="deptId" column="dept_id"/>
+        <association property="dept"
+                     javaType="Dept"
+                     select="com.mybatis.demo.mapper.DeptMapper.getDeptInfo"
+                     column="dept_id">
+        </association>
+    </resultMap>
+    <select id="getUserInfo" resultMap="empAndDeptStep">
+        select * from mybatis_emp where id = #{id}
+    </select>
+    <!--List builderQuery(Emp emp);-->
+    <select id="builderQuery" resultType="emp">
+        select * from mybatis_emp
+        <where>
+            <choose>
+                <when test="empName != null and empName != ''">
+                    emp_name = #{empName}
+                </when>
+                <when test="age != null">
+                    age = #{age}
+                </when>
+                <when test="sex != null and sex != ''">
+                    sex = #{sex}
+                </when>
+                <otherwise>
+                    id = 10
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <!-- List<Emp> builderQueryByArray(@Param("ids") Integer[] ids);-->
+    <select id="builderQueryByArrayOld" resultType="emp">
+        select * from mybatis_emp where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </select>
+    <select id="builderQueryByArray" resultType="emp">
+        select * from mybatis_emp
+        <where>
+            <foreach collection="ids" item="id" separator="or">
+                id = #{id}
+            </foreach>
+        </where>
+    </select>
+    <!--void batchInsert(@Param("batchData") List<Emp> emps);-->
+    <!--
+    INSERT INTO mybatis_emp (emp_name, age, sex, dept_id)
+        VALUES
+            ('张三张三', 30, '男', 2),
+            ('李四', 30, '男', 2)
+
+    -->
+    <sql id="insertField">
+        (emp_name, age, sex, dept_id)
+    </sql>
+    <insert id="batchInsert">
+        insert into mybatis_emp <include refid="insertField"></include> values
+        <foreach collection="batchData" item="emp" separator=",">
+            (#{emp.empName}, #{emp.age}, #{emp.sex}, #{emp.deptId})
+        </foreach>
+    </insert>
+
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache" />
+</mapper>

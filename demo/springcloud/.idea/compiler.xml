@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-provider-payment-8002" />
+        <module name="cloud-provider-payment-8001" />
+        <module name="cloud-eureka-server-7003" />
+        <module name="cloud-alibaba-config-nacos-client-3377" />
+        <module name="cloud-eureka-server-7001" />
+        <module name="cloud-alibaba-sentinel-service-840" />
+        <module name="seata-account-service-2003" />
+        <module name="cloud-payment-hystrix-service-8002" />
+        <module name="cloud-payment-hystrix-service-8001" />
+        <module name="cloud-api-common" />
+        <module name="cloud-config-client-3355" />
+        <module name="nacos-order-consumer-83" />
+        <module name="cloud-provider-payment-consul-8006" />
+        <module name="cloud-consumer-hystrix-dashboard-9001" />
+        <module name="cloud-config-center-3344" />
+        <module name="cloud-consumer-feign-order" />
+        <module name="cloud-payment-gateway-9527" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
+        <module name="seata-order-service-2001" />
+        <module name="cloud-consumer-hystrix-order" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-consumer-order-consul" />
+        <module name="cloud-stream-rabbitmq-provider-8801" />
+        <module name="cloud-service-sleuth-9100" />
+        <module name="seata-storage-service-2002" />
+        <module name="cloud-provider-payment-8004" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-alibaba-provider-payment-9001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka-server-7001 (1)" target="11" />
+      <module name="cloud-eureka-server-7002" target="11" />
+      <module name="cloud-provider-payment-8001 (1)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-consumer-order" options="" />
+    </option>
+  </component>
+</project>

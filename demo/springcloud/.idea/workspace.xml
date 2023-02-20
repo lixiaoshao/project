@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32d2deaa-6827-4f24-9968-d7d17c0efb60" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-mapper-xml" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\tool\maven_jar" />
+        <option name="mavenHome" value="E:/tool/maven3.6.0" />
+        <option name="userSettingsFile" value="E:\tool\maven3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KAOftEGjnuFTukTQ0lOPFHzQOe" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\project\demo\springcloud\seata-order-service-2001\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.honor.fly.config" />
+      <recent name="com.honor.fly.consumer" />
+      <recent name="com.honor.fly.controller" />
+      <recent name="com.honor.fly" />
+      <recent name="com.honor.fly.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\project\demo\springcloud\seata-account-service-2003\src\main\resources" />
+      <recent name="F:\Java\project\demo\springcloud\seata-storage-service-2002\src\main\resources" />
+      <recent name="F:\Java\project\demo\springcloud\nacos-order-consumer-83\src\main\resources" />
+      <recent name="F:\Java\project\demo\springcloud\cloud-alibaba-provider-payment-9001\src\main\resources" />
+      <recent name="F:\Java\project\demo\springcloud\cloud-stream-rabbitmq-consumer-8802\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeataOrderService2001">
+    <configuration name="AlibabaNacosConfig" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-config-nacos-client-3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.honor.fly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.AlibabaNacosConfig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudAlibabaNacosPayment9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-provider-payment-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudAlibabaNacosPayment9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudAlibabaNacosPayment9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-provider-payment-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudAlibabaNacosPayment9001" />
+      <option name="VM_PARAMETERS" value="-DServer.port=9002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConfigCenter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center-3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudConfigCenter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConsumerFeignOrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudConsumerFeignOrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudConsumerOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudConsumerOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudEurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaServer7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudEurekaServer7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudPaymentGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-payment-gateway-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudPaymentGateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudPaymentHystrixService8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-payment-hystrix-service-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudPaymentHystrixService8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudPaymentHystrixService8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-payment-hystrix-service-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudPaymentHystrixService8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProviderPayment8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudProviderPayment8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProviderPayment8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="serviceRegisterCenter">
+      <module name="cloud-provider-payment-8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudProviderPayment8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudSentinelService8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-sentinel-service-840" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.honor.fly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudSentinelService8401" />
+      <option name="VM_PARAMETERS" value="-Dcsp.sentinel.dashboard.server=127.0.0.1:8888" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudServiceSleuth9100" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-service-sleuth-9100" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudServiceSleuth9100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamConsumer8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.honor.fly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudStreamConsumer8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamProvider8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider-8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudStreamProvider8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamProvider8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider-8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.CloudStreamProvider8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-consul-8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.ConsulMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboard" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.HystrixDashboard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixOrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.HystrixOrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosOrderConsumer83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-order-consumer-83" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.honor.fly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.NacosOrderConsumer83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderConsulMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order-consul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.OrderConsulMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.PaymentMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountService2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-service-2003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.honor.fly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.SeataAccountService2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderService2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-order-service-2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.SeataOrderService2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageService2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-storage-service-2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.honor.fly.SeataStorageService2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CloudProviderPayment8004" />
+      <item itemvalue="Spring Boot.CloudConsumerOrderApplication" />
+      <item itemvalue="Spring Boot.CloudProviderPayment8002" />
+      <item itemvalue="Spring Boot.ConsulMain" />
+      <item itemvalue="Spring Boot.CloudPaymentHystrixService8001" />
+      <item itemvalue="Spring Boot.CloudPaymentHystrixService8002" />
+      <item itemvalue="Spring Boot.OrderConsulMain" />
+      <item itemvalue="Spring Boot.PaymentMain" />
+      <item itemvalue="Spring Boot.CloudConsumerFeignOrderMain" />
+      <item itemvalue="Spring Boot.HystrixOrderMain" />
+      <item itemvalue="Spring Boot.HystrixDashboard" />
+      <item itemvalue="Spring Boot.ConfigClientMain3366" />
+      <item itemvalue="Spring Boot.CloudStreamProvider8001" />
+      <item itemvalue="Spring Boot.CloudPaymentGateway" />
+      <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.CloudServiceSleuth9100" />
+      <item itemvalue="Spring Boot.CloudAlibabaNacosPayment9001" />
+      <item itemvalue="Spring Boot.CloudAlibabaNacosPayment9002" />
+      <item itemvalue="Spring Boot.CloudConfigCenter" />
+      <item itemvalue="Spring Boot.CloudEurekaServer7003" />
+      <item itemvalue="Spring Boot.CloudEurekaServer" />
+      <item itemvalue="Spring Boot.SeataOrderService2001" />
+      <item itemvalue="Spring Boot.SeataStorageService2002" />
+      <item itemvalue="Spring Boot.CloudStreamConsumer8802" />
+      <item itemvalue="Spring Boot.NacosOrderConsumer83" />
+      <item itemvalue="Spring Boot.AlibabaNacosConfig" />
+      <item itemvalue="Spring Boot.CloudSentinelService8401" />
+      <item itemvalue="Spring Boot.SeataAccountService2003" />
+      <item itemvalue="Spring Boot.CloudStreamProvider8801" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeataAccountService2003" />
+        <item itemvalue="Spring Boot.CloudSentinelService8401" />
+        <item itemvalue="Spring Boot.AlibabaNacosConfig" />
+        <item itemvalue="Spring Boot.NacosOrderConsumer83" />
+        <item itemvalue="Spring Boot.CloudStreamConsumer8802" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.2284334" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ContributorNode@4d04d2e4" type="d2cb1801:ServiceModel$ContributorNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ContributorNode@4d04d2e4" type="d2cb1801:ServiceModel$ContributorNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4e4f9d7d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+        <option name="groupByContributor" value="true" />
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32d2deaa-6827-4f24-9968-d7d17c0efb60" name="Default Changelist" comment="" />
+      <created>1673414026998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673414026998</updated>
+      <workItem from="1673414029750" duration="11982000" />
+      <workItem from="1673426115468" duration="35662000" />
+      <workItem from="1673785105781" duration="15601000" />
+      <workItem from="1673873500639" duration="28240000" />
+      <workItem from="1674435125964" duration="19030000" />
+      <workItem from="1674524777475" duration="1638000" />
+      <workItem from="1674526433885" duration="20749000" />
+      <workItem from="1674614115880" duration="17107000" />
+      <workItem from="1675578018696" duration="1205000" />
+      <workItem from="1675580395056" duration="4738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-order-consul/src/main/java/com/honor/fly/controller/OrderController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/3.1.5/spring-cloud-config-server-3.1.5-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentController.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+# Application Context Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.honor.fly.listener.MyApplicationContextInitializer
+
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.honor.fly.listener.MyApplicationListener
+
+# Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.honor.fly.listener.MySpringApplicationRunListener
